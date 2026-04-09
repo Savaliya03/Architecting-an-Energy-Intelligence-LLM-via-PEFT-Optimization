@@ -60,7 +60,8 @@ pip install -r requirements.txt
 
 To interact with the SQL Agent, run the inference script. This script connects directly to the merged model hosted on Hugging Face.
 
-Bash
+
+
 
 Bash
 
@@ -84,7 +85,6 @@ python inference.py
 
 To replicate the 4-Bit Quantization and LoRA fine-tuning process locally (requires the `qustions_and_quaries.json` dataset in the root directory):
 
-Bash
 
 Bash
 
