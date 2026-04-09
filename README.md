@@ -38,16 +38,17 @@ The core objective is to transform a standard Large Language Model into a specia
 
 Ensure you have Python 3.8+ and Dual NVIDIA T4 GPUs (or equivalent VRAM).
 
-Bash
 
-Bash
 
+#### 1. Clone the repository
 ```
-# 1. Clone the repository
 git clone [https://github.com/YOUR_USERNAME/EnergyIntelligence-SQL-Agent.git](https://github.com/YOUR_USERNAME/EnergyIntelligence-SQL-Agent.git)
 cd EnergyIntelligence-SQL-Agent
+```
 
-# 2. Install required ML dependencies
+#### 2. Install required ML dependencies
+
+```
 pip install -r requirements.txt
 
 ```
