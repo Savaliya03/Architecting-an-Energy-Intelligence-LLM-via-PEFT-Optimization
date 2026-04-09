@@ -26,11 +26,14 @@ The core objective is to transform a standard Large Language Model into a specia
 ### Repository Structure
 ```text
 .
-├── .gitignore             # Security block for weights and private data
-├── README.md              # This instruction file
-├── requirements.txt       # Core ML dependencies
-├── train.py               # The LoRA/PEFT fine-tuning script
-└── inference.py           # The interactive CLI chat script
+
+├── .gitignore             # Security block for weights and private data
+├── README.md              # This instruction file
+├── requirements.txt       # Core ML dependencies
+├── train.py               # The LoRA/PEFT fine-tuning script
+├── inference.py           # The interactive CLI chat script
+├── questions_and_answers.json  # Raw dataset / Q&A pairs
+└── questions_and_queries.json  # Formatted Text-to-SQL training data
 
 ```
 
