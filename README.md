@@ -3,7 +3,7 @@
 
 An enterprise-grade implementation of a local, fine-tuned AI agent capable of translating natural language into highly accurate, domain-aware SQL queries. This project was developed to localize AI intelligence for industrial database management at Innovation Intellect.
 
-> **Note:** This repository contains **ONLY THE CODE**. The merged model weights are hosted securely on Hugging Face.
+> **Note:** This repository contains **ONLY THE CODE**. The merged model weights are hosted securely on Hugging Face: [InnovativeEngineers/Energy-Intelligence](https://huggingface.co/InnovativeEngineers/Energy-Intelligence)
 
 ---
 
