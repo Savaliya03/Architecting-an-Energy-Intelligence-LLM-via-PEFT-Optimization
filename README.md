@@ -3,7 +3,11 @@
 
 An enterprise-grade implementation of a local, fine-tuned AI agent capable of translating natural language into highly accurate, domain-aware SQL queries. This project was developed to localize AI intelligence for industrial database management at Innovation Intellect.
 
-> **Note:** This repository contains **ONLY THE CODE**. The merged model weights are hosted securely on Hugging Face: [InnovativeEngineers/Energy-Intelligence](https://huggingface.co/InnovativeEngineers/Energy-Intelligence)
+> **📝 Note on Nomenclature & Weights:**
+> This enterprise AI solution was developed by and belongs to **Innovation Intellect**.
+> Please note that **InnovativeEngineers** is our official internal engineering namespace. You will strictly see `InnovativeEngineers` used in repository paths, API configurations, and our Hugging Face model registry. Both names represent the same corporate entity.
+>
+> This repository contains **ONLY THE CODE**. The merged model weights are hosted securely under our engineering namespace on Hugging Face: [InnovativeEngineers/Energy-Intelligence](https://huggingface.co/InnovativeEngineers/Energy-Intelligence)
 
 ---
 
@@ -36,6 +40,8 @@ Ensure you have Python 3.8+ and Dual NVIDIA T4 GPUs (or equivalent VRAM).
 
 Bash
 
+Bash
+
 ```
 # 1. Clone the repository
 git clone [https://github.com/YOUR_USERNAME/EnergyIntelligence-SQL-Agent.git](https://github.com/YOUR_USERNAME/EnergyIntelligence-SQL-Agent.git)
@@ -52,6 +58,8 @@ pip install -r requirements.txt
 ----------------------------------------
 
 To interact with the SQL Agent, run the inference script. This script connects directly to the merged model hosted on Hugging Face.
+
+Bash
 
 Bash
 
@@ -74,6 +82,8 @@ python inference.py
 ----------------------------------
 
 To replicate the 4-Bit Quantization and LoRA fine-tuning process locally (requires the `qustions_and_quaries.json` dataset in the root directory):
+
+Bash
 
 Bash
 
@@ -133,4 +143,4 @@ Special thanks to the **Qwen Team** (Alibaba Cloud) for releasing the Qwen 2.5-7
 📜 Confidentiality & Copyright
 ------------------------------
 
-© 2026. All rights reserved. This framework and documentation are proprietary to Innovation Intellect. No part of this repository may be reproduced, distributed, or transmitted in any form without prior written permission. Unauthorized reproduction or distribution is strictly prohibited.
+© 2026. All rights reserved. This framework and documentation are proprietary to **Innovation Intellect Pvt. Ltd.** No part of this repository may be reproduced, distributed, or transmitted in any form without prior written permission. Unauthorized reproduction or distribution is strictly prohibited.
