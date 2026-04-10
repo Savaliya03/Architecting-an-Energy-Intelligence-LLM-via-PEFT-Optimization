@@ -1,5 +1,5 @@
 
-# 📌 Project: EnergyIntelligence-Qwen2.5-7B-Text-to-SQL
+# 📌 Project: Architecting an Energy Intelligence LLM via PEFT Optimization
 
 An enterprise-grade implementation of a local, fine-tuned AI agent capable of translating natural language into highly accurate, domain-aware SQL queries. This project was developed to localize AI intelligence for industrial database management at Innovation Intellect.
 
